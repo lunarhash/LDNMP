@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 检查是否安装了 Docker
+# 检查是否安装了 Docker11
 if ! [ -x "$(command -v docker)" ]; then
   echo "Docker 未安装。正在安装 Docker..."
   apt update && apt install -y docker.io
